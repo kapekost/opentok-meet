@@ -177,7 +177,7 @@ ng.module('opentok', [])
             scope.publisher = null;
           });
           if (OTSession.session && (OTSession.session.connected ||
-              (OTSession.session.isConnected && OTSession.session.isConnected()))) {
+            (OTSession.session.isConnected && OTSession.session.isConnected()))) {
             OTSession.session.publish(scope.publisher, (err) => {
               if (err) {
                 scope.$emit('otPublisherError', err, scope.publisher);

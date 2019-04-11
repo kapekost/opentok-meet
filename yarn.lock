@@ -3962,14 +3962,15 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-nexmo-client@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/nexmo-client/-/nexmo-client-4.0.1.tgz#b608c54e8adce10e1d721d58c88e75c00ca9c506"
-  integrity sha512-qHwlXK4HuMZcWKtSMjVo/vKZr2xdZVL0c6WsAQALAKhHpOCyhN+3V+BIa1KqIpWt3OxpnidPF0j6QYbncHZ6tw==
+nexmo-client@^4.0.2-ot.2:
+  version "4.0.2-ot.2"
+  resolved "https://registry.yarnpkg.com/nexmo-client/-/nexmo-client-4.0.2-ot.2.tgz#62dc88e5e941bbc433cebfeb7e72cbe54c050c48"
+  integrity sha512-/0akfYN/7YF2dhI/G1VNJfKgAkJLWXfjAjNC/FwTXAm04M3wCoShwfYVk9XWY1rqrNCiABbiTxfVajS9X98JOQ==
   dependencies:
     detect-browser "^3.0.1"
     loglevel "^1.6.1"
     loglevel-plugin-prefix "^0.8.4"
+    opentok "^2.8.1"
     socket.io "^2.2.0"
     socket.io-client "^2.2.0"
     socketio-wildcard "^2.0.0"
@@ -4270,6 +4271,16 @@ opentok-whiteboard@^1.2.1:
 opentok@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/opentok/-/opentok-2.6.2.tgz#c02605b3683d8c4917c7fff6031197cc53a133cf"
+  dependencies:
+    jsonwebtoken "^8.2.0"
+    lodash "^4.17.5"
+    opentok-token "^1.1.0"
+    request "^2.85.0"
+
+opentok@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/opentok/-/opentok-2.8.1.tgz#7fc62d58523cae7b465e8c9d2499c92dc94d70ed"
+  integrity sha512-DjetTc/f32XB4/aGVCeywTwZrCuW9PQpsllZAb7ZiqjCfaC7WaV4BP4Q3S31V4hQHTeTmZ8qPf470bWkLJ379A==
   dependencies:
     jsonwebtoken "^8.2.0"
     lodash "^4.17.5"
