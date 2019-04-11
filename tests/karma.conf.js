@@ -20,7 +20,7 @@ module.exports = (config) => {
     basePath: '../',
 
     files: [
-      'https://static.opentok.com/v2/js/opentok.js',
+      'https://unpkg.com/nexmo-client@ot/dist/conversationClient.min.js',
       'tests/unit/**/index.js',
     ],
 

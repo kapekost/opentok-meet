@@ -10,6 +10,9 @@ const config = {
     screen: './src/js/screen/app.js',
     whiteboard: './src/js/whiteboard/app.js',
   },
+  node: {
+    net: 'empty',
+  },
   output: {
     path: './public/js/',
     filename: '[name].bundle.min.js',

@@ -9,7 +9,7 @@
  * */
 
 const ConversationClient = require('nexmo-client'); // eslint-disable-line 
-
+window.OT = new ConversationClient({ debug: true }).OT;
 if (!window.OT) throw new Error('You must include the OT library before the OT_Angular library');
 let ng;
 if (typeof angular === 'undefined' && typeof require !== 'undefined') {
